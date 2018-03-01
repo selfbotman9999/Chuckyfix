@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-#Chucky_Bot
-
+#SELFBOT MAN PROTECT
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
@@ -11,38 +10,37 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-#cl.login(qr=True)
-cl.login(token='TOKEN_KAMU_DISINI_BEIB')
+cl.login(token='TOKEN_MAN')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='TOKEN_KAMU_DISINI_BEIB')
+ki.login(token='TOKEN_BOT1')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='TOKEN_KAMU_DISINI_BEIB')
+kk.login(token='TOKEN_BOT2')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='TOKEN_KAMU_DISINI_BEIB')
+kc.login(token='TOKEN_BOT3')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='TOKEN_KAMU_DISINI_BEIB')
+kr.login(token='TOKEN_BOT4')
 kr.loginResult()
 print "Kr-Login Success\n"
 
 km = LINETCR.LINE()
 #km.login(qr=True)
-km.login(token='TOKEN_KAMU_DISINI_BEIB')
+km.login(token='TOKEN_BOT5')
 km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
 
@@ -76,8 +74,8 @@ selfMessage ="""
 ╠➩〘Getvid @〙
 ╠➩〘Friendlist〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -98,8 +96,8 @@ botMessage ="""
 ╠➩〘@bye (Usir Kapten)〙
 ╠➩〘Bye all (Usir Semua)〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -140,8 +138,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -174,11 +172,11 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
-tjia="u14f64e139a3817afaabe27d237afb36b"
+tjia="ud24af63fd62d14c3bf8f719df80c3745"
 
 setMessage ="""
 ╔═════════════════════════
@@ -191,8 +189,8 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -218,8 +216,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -259,8 +257,8 @@ adminMessage ="""
 ╠➩〘Leave on/off〙
 ╠➩〘All join / (TC1/2/3/4 Join)〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -283,8 +281,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
@@ -299,13 +297,12 @@ protectMessage ="""
 ╠➩〘Ghost on/off〙
 ╠➩〘Invitepro on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ ✯ SELFBOT MAN-PC MEDIA @2018 ✯
+║  line.me/ti/p/~1ove..neverdie
 ╚═════════════════════════
 """
 
-
-KAC=[cl,ki,kk,kc,kr]
+KAC=[cl,ki,kk,kc,kr,km]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -313,8 +310,8 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b","u23ad5ddec0dd0523f9caffad673d693c","u8b2bb5214c1afc77d06901a535c23e30","u57a54b914085fea6f04c19f6fe589057","u94fb89525397a12a24df3642a7335fe7","u3a43893bf65289be03f9fd3a85dab2a7","u787d28e13bd4f94cdca5457cd90efaf4","u86304883a6fa105778bfdf13f467eaf0"]
+Creator=["ud24af63fd62d14c3bf8f719df80c3745"]
+admin=["ud24af63fd62d14c3bf8f719df80c3745","MID.2","MID.3","MID.4","MID.5"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -346,12 +343,18 @@ backup5.displayName = contact.displayName
 backup5.statusMessage = contact.statusMessage                        
 backup5.pictureStatus = contact.pictureStatus
 
+contact = km.getProfile()
+backup6 = km.getProfile()
+backup6.displayName = contact.displayName
+backup6.statusMessage = contact.statusMessage                        
+backup6.pictureStatus = contact.pictureStatus
+
 responsename = cl.getProfile().displayName
 responsename2 = ki.getProfile().displayName
 responsename3 = kk.getProfile().displayName
 responsename4 = kc.getProfile().displayName
 responsename5 = kr.getProfile().displayName
-
+responsename6 = km.getProfile().displayName
 
 wait = {
     "LeaveRoom":True,
@@ -374,11 +377,11 @@ wait = {
     'kickMention':False,      
     'timeline':True,
     "Timeline":True,
-    "comment1":"Kenapa Kak?",
-    "comment2":"Wkwkwk ＼（○＾ω＾○）／",
-    "comment3":"Lucu Banget!!! ヘ(^_^)ヘ",
-    "comment4":"Nice Kak (^_^)",
-    "comment5":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~nad_nad.",    
+    "comment1":"Auto Like By : SELFBOT MAN PROTECT ¯\_(ツ)_/¯",
+    "comment2":"Auto Like By : SELFBOT MAN PROTECT ＼（○＾ω＾○）／",
+    "comment3":"Auto Like By : SELFBOT MAN PROTECT ヘ(^_^)ヘ",
+    "comment4":"Auto Like By : SELFBOT MAN PROTECT (^_^)",
+    "comment5":"Auto Like By : SELFBOT MAN PROTECT\nContact Me : 👉 line.me/ti/p/~1ove..neverdie",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
@@ -1111,7 +1114,7 @@ def bot(op):
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             cl.sendMessage(c)
-            cl.sendText(op.param1,"Hallo " + cl.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini ^_^")
+            cl.sendText(op.param1,"สวัสดีสมาชิกใหม่ " + cl.getContact(op.param2).displayName + "\nยินดีต้อนรับ เข้าร่วมกลุ่ม ⤵️\n❇️ " + str(ginfo.name) + " ❇️" + "\n\n🇹🇭 THAILAND  :  CREATOR \n By  :  SELFBOT MAN PROTECTION")
             cl.sendImageWithURL(op.param1,image)
             print "MEMBER JOIN TO GROUP"
             
